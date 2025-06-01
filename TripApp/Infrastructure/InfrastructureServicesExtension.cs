@@ -9,6 +9,7 @@ public static class InfrastructureServicesExtension
     {
         app.AddScoped<ITripRepository, TripRepository>();
         app.AddScoped<IClientRepository, ClientRepository>();
+        app.AddScoped<IClientTripRepository, ClientTripRepository>();
         app.AddDbContext<TripContext>();
     }
 }

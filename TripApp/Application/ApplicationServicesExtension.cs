@@ -9,5 +9,6 @@ public static class ApplicationServicesExtension
     {
         app.AddScoped<ITripService, TripService>();
         app.AddScoped<IClientService, ClientService>();
+        app.AddScoped<IClientTripService, ClientTripService>();
     }
 }

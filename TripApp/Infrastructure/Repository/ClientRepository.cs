@@ -1,31 +1,45 @@
 using Microsoft.EntityFrameworkCore;
 using TripApp.Application.Repository;
+using TripApp.Core.Models;
 
 namespace TripApp.Infrastructure.Repository;
 
-public class ClientRepository(TripContext context) : IClientRepository
+public class ClientRepository : IClientRepository
 {
-    public async Task<bool> ClientExistsAsync(int idClient)
+    private readonly TripContext _context;
+
+    public ClientRepository(TripContext context)
     {
-        var client = await context.Clients.FirstOrDefaultAsync(x => x.IdClient == idClient);
-        return client is not null;
+        _context = context;
     }
 
-    public async Task<bool> ClientHasTripsAsync(int idClient)
+    public async Task<bool> ClientExistsAsync(int clientId)
     {
-        return await context.ClientTrips.AnyAsync(ct => ct.IdClient == idClient);
+        return await _context.Clients.AnyAsync(c => c.IdClient == clientId);
     }
 
-    public async Task<bool> DeleteClientAsync(int idClient)
+    public async Task<bool> ClientHasTripsAsync(int clientId)
     {
-        var client = await context.Clients.FindAsync(idClient);
-        if (client == null)
-        {
-            return false;
-        }
+        return await _context.ClientTrips.AnyAsync(ct => ct.IdClient == clientId);
+    }
 
-        context.Clients.Remove(client);
-        await context.SaveChangesAsync();
-        return true;
+    public async Task DeleteClientAsync(int clientId)
+    {
+        var client = await _context.Clients.FindAsync(clientId);
+        if (client == null) return;
+
+        _context.Clients.Remove(client);
+        await _context.SaveChangesAsync();
+    }
+
+    public async Task<Client?> GetClientByPeselAsync(string pesel)
+    {
+        return await _context.Clients.SingleOrDefaultAsync(c => c.Pesel == pesel);
+    }
+
+    public async Task AddClientAsync(Client client)
+    {
+        await _context.Clients.AddAsync(client);
+        await _context.SaveChangesAsync();
     }
 }

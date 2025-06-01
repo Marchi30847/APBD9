@@ -5,7 +5,7 @@ namespace TripApp.Application.Mappers;
 
 public static class ClientMapper
 {
-    public static ClientDto MapToCountryDto(this Client client)
+    public static ClientDto MapToClientDto(this Client client)
     {
         return new ClientDto
         {

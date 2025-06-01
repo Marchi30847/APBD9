@@ -15,7 +15,7 @@ public static class TripMapper
             Description = trip.Description,
             MaxPeople = trip.MaxPeople,
             Countries = trip.IdCountries.Select(country => country.MapToCountryDto()).ToList(),
-            Clients = trip.ClientTrips.Select(e => e.IdClientNavigation.MapToCountryDto()).ToList()
+            Clients = trip.ClientTrips.Select(e => e.IdClientNavigation.MapToClientDto()).ToList()
         };
     }
 }

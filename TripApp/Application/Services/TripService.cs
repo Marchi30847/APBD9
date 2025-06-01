@@ -6,20 +6,28 @@ using TripApp.Core.Models;
 
 namespace TripApp.Application.Services;
 
-public class TripService(ITripRepository tripRepository) : ITripService
+public class TripService : ITripService
 {
+    private readonly ITripRepository _tripRepository;
+
+    public TripService(ITripRepository tripRepository)
+    {
+        _tripRepository = tripRepository;
+    }
+
     public async Task<PaginatedResult<GetTripDto>> GetPaginatedTripsAsync(int page = 1, int pageSize = 10)
     {
         if (page < 1) page = 1;
-        if (pageSize < 10) pageSize = 10;
-        var result = await tripRepository.GetPaginatedTripsAsync(page, pageSize);
+        if (pageSize < 1) pageSize = 10;
+
+        var result = await _tripRepository.GetPaginatedTripsAsync(page, pageSize);
 
         var mappedTrips = new PaginatedResult<GetTripDto>
         {
-            AllPages = result.AllPages,
-            Data = result.Data.Select(trip => trip.MapToGetTripDto()).ToList(),
             PageNum = result.PageNum,
-            PageSize = result.PageSize
+            PageSize = result.PageSize,
+            AllPages = result.AllPages,
+            Data = result.Data.Select(trip => trip.MapToGetTripDto()).ToList()
         };
 
         return mappedTrips;
@@ -27,8 +35,8 @@ public class TripService(ITripRepository tripRepository) : ITripService
 
     public async Task<List<GetTripDto>> GetAllTripsAsync()
     {
-        var trips = await tripRepository.GetAllTripsAsync();
-        var mappedTrips = trips.Select(trip => trip.MapToGetTripDto()).ToList();
-        return mappedTrips;
+        var trips = await _tripRepository.GetAllTripsAsync();
+        var mapped = trips.Select(trip => trip.MapToGetTripDto()).ToList();
+        return mapped;
     }
 }
