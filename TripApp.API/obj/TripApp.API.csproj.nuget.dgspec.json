@@ -1,0 +1,277 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.API/TripApp.API.csproj": {}
+  },
+  "projects": {
+    "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.API/TripApp.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.API/TripApp.API.csproj",
+        "projectName": "TripApp.API",
+        "projectPath": "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.API/TripApp.API.csproj",
+        "packagesPath": "/Users/yurimarchenko/.nuget/packages/",
+        "outputPath": "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yurimarchenko/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.Infrastructure/TripApp.Infrastructure.csproj": {
+                "projectPath": "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.Infrastructure/TripApp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/yurimarchenko/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.Application/TripApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.Application/TripApp.Application.csproj",
+        "projectName": "TripApp.Application",
+        "projectPath": "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.Application/TripApp.Application.csproj",
+        "packagesPath": "/Users/yurimarchenko/.nuget/packages/",
+        "outputPath": "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yurimarchenko/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.Core/TripApp.Core.csproj": {
+                "projectPath": "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.Core/TripApp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/yurimarchenko/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.Core/TripApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.Core/TripApp.Core.csproj",
+        "projectName": "TripApp.Core",
+        "projectPath": "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.Core/TripApp.Core.csproj",
+        "packagesPath": "/Users/yurimarchenko/.nuget/packages/",
+        "outputPath": "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yurimarchenko/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/yurimarchenko/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.Infrastructure/TripApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.Infrastructure/TripApp.Infrastructure.csproj",
+        "projectName": "TripApp.Infrastructure",
+        "projectPath": "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.Infrastructure/TripApp.Infrastructure.csproj",
+        "packagesPath": "/Users/yurimarchenko/.nuget/packages/",
+        "outputPath": "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yurimarchenko/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.Application/TripApp.Application.csproj": {
+                "projectPath": "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.Application/TripApp.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/yurimarchenko/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

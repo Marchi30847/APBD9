@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "IqWRae8ki3qAv/nt958J8ByADKTWQEA2wxVH3sWI/Pk=",
+  "Source": "TripApp.API",
+  "BasePath": "_content/TripApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,16 @@
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Application/bin/Debug/net8.0/TripApp.Application.deps.json
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Application/bin/Debug/net8.0/TripApp.Application.dll
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Application/bin/Debug/net8.0/TripApp.Application.pdb
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Application/bin/Debug/net8.0/TripApp.Core.dll
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Application/bin/Debug/net8.0/TripApp.Core.pdb
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Application/obj/Debug/net8.0/TripApp.Application.csproj.AssemblyReference.cache
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Application/obj/Debug/net8.0/TripApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Application/obj/Debug/net8.0/TripApp.Application.AssemblyInfoInputs.cache
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Application/obj/Debug/net8.0/TripApp.Application.AssemblyInfo.cs
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Application/obj/Debug/net8.0/TripApp.Application.csproj.CoreCompileInputs.cache
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Application/obj/Debug/net8.0/TripApp.Application.sourcelink.json
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Application/obj/Debug/net8.0/TripApp..2C908CB8.Up2Date
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Application/obj/Debug/net8.0/TripApp.Application.dll
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Application/obj/Debug/net8.0/refint/TripApp.Application.dll
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Application/obj/Debug/net8.0/TripApp.Application.pdb
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Application/obj/Debug/net8.0/ref/TripApp.Application.dll

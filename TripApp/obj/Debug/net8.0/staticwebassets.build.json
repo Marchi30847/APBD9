@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "MJ99DG8mnEHfIwbfjc243zHD/r/0v+7T1YpqoFlrQ6Y=",
+  "Source": "TripApp",
+  "BasePath": "_content/TripApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

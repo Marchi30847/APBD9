@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "S4q2u2GPY9A=",
+  "success": true,
+  "projectFilePath": "/Users/yurimarchenko/RiderProjects/TripApp/TripApp.Application/TripApp.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/yurimarchenko/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.1/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

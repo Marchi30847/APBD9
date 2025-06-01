@@ -1,0 +1,12 @@
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Core/bin/Debug/net8.0/TripApp.Core.deps.json
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Core/bin/Debug/net8.0/TripApp.Core.dll
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Core/bin/Debug/net8.0/TripApp.Core.pdb
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Core/obj/Debug/net8.0/TripApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Core/obj/Debug/net8.0/TripApp.Core.AssemblyInfoInputs.cache
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Core/obj/Debug/net8.0/TripApp.Core.AssemblyInfo.cs
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Core/obj/Debug/net8.0/TripApp.Core.csproj.CoreCompileInputs.cache
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Core/obj/Debug/net8.0/TripApp.Core.sourcelink.json
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Core/obj/Debug/net8.0/TripApp.Core.dll
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Core/obj/Debug/net8.0/refint/TripApp.Core.dll
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Core/obj/Debug/net8.0/TripApp.Core.pdb
+/Users/dborovych/Documents/GitHub/trip-api-example/TripApp/TripApp.Core/obj/Debug/net8.0/ref/TripApp.Core.dll
